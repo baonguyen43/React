@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  background-color: #740ef5;
+  height: 98px;
+  width: 330px;
+  border-radius: 50px;
+  align-items: center;
+}
+.columnleft {
+  display: flex;
+  padding-left: 20px;
+}
+.columnright {
+  flex: 1;
+  padding-left: 15px;
+}
+.title {
+  font-weight: 600;
+}
+.subtitle {
+  font-size: 10px;
+  color: white;
+}

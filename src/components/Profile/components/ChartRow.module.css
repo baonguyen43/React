@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  width: 250px;
+  height: 20px;
+  border: 1px solid #1f5066;
+  align-items: center;
+  background-color: #29292b;
+}
+.columnleft {
+  display: flex;
+  background-color: #1f5066;
+  height: 20px;
+}

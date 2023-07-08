@@ -1,0 +1,31 @@
+.container {
+  background-color: white;
+  height: 98px;
+  width: 330px;
+  border-radius: 20px;
+  display: flex;
+  z-index: 2;
+}
+.container > img {
+  height: 98px;
+  width: 107px;
+}
+
+.title {
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+.subtitle {
+  font-size: 10px;
+  color: #78858f;
+}
+.columnright {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 2;
+}
+.columnleft {
+  flex: 1;
+  z-index: 1;
+}

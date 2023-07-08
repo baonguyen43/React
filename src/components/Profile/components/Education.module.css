@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  align-items: center;
+  margin-left: 48px;
+  height: 74px;
+}
+.timne {
+  display: flex;
+  flex: 2;
+  background-color: aqua;
+}
+.sp1 {
+  display: flex;
+  width: 48px;
+  background-color: beige;
+}
+.summary {
+  display: flex;
+  flex: 3;
+}
+.sp2 {
+  width: 72px;
+}

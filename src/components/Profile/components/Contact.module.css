@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 250px;
+  margin-top: 250px;
+}
+.content {
+  display: flex;
+  margin-top: 20px;
+}
+.columnright {
+  margin-left: 10px;
+}
+.columnleft {
+  margin-top: 10px;
+}

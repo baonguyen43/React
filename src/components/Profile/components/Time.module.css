@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  align-items: center;
+}
+.square {
+  height: 32px;
+  width: 32px;
+  background-color: #004262;
+  margin-right: 12px;
+}
+.titleleft {
+  display: flex;
+  flex-direction: column;
+}
+.titleleft span {
+  font-weight: 600;
+  height: 30px;
+}

@@ -1,0 +1,13 @@
+.bt {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+  background-color: cadetblue;
+}
+.av {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: blanchedalmond;
+}

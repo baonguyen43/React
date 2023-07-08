@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 780px;
+  height: 140px;
+  position: absolute;
+  background-color: #1f5066;
+  z-index: 1;
+  left: 220px;
+  padding-left: 140px;
+}
+.name {
+  font-size: 48px;
+  font-weight: 700;
+  color: white;
+}
+.job {
+  font-size: 24px;
+  color: white;
+}

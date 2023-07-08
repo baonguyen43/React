@@ -1,0 +1,14 @@
+.container {
+  background-color: gray;
+  height: 15px;
+  align-items: center;
+  display: flex;
+  flex: 1;
+}
+
+.left {
+  background-color: rgb(253, 184, 1);
+  width: 85%;
+  display: flex;
+  height: 15px;
+}

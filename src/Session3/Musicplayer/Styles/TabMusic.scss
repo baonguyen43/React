@@ -1,0 +1,57 @@
+$goldcColor: goldenrod; 
+$fontColor: white; 
+
+
+.header{
+  display: flex;
+  padding-right: 300px;
+  
+}
+.column-left{
+    flex: 1;
+    margin-left: 10px;
+    .listsongs{
+        display: flex; 
+        width: 100%;
+        background-color: $goldcColor;
+        color: $fontColor;
+        &:hover {
+            font-weight: bold;
+        }
+        .tabContainer {
+            width: 500px;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: space-around;
+          }
+    }
+}
+.tabTitle {
+    color: white;
+  
+    height: 48px;
+    width: 120px;
+  
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+  
+    font-weight: 700;
+    border: 0;
+  
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  .tabContent {
+    display: flex;
+    margin-top: 12px;
+    text-align: center;
+    font-size: 13px;
+    color: grey;
+    width: 588px;
+    height: 96px;
+  }
+  

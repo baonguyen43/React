@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  width: 750px;
+  margin: 0 auto;
+}
+.columleft {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.columright {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.top {
+  display: flex;
+}
+.bottom {
+  display: flex;
+  flex-direction: column;
+}
+.bot {
+  display: flex;
+  flex-direction: column;
+}
+.tabTitle {
+  width: 345px;
+  height: 51px;
+  text-align: left;
+  font-weight: 700;
+  border: 0;
+}
+.tabContent {
+  height: auto;
+  overflow: hidden;
+  cursor: pointer;
+  user-select: none;
+}

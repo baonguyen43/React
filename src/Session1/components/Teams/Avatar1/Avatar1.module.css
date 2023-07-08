@@ -1,0 +1,28 @@
+.content {
+  background-color: white;
+  height: 98px;
+  width: 330px;
+  border-radius: 20px;
+  align-items: center;
+}
+.column {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+.title {
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+.subtitle {
+  font-size: 10px;
+  color: #78858f;
+}
+.rightcolumn {
+  flex: 1;
+  padding-left: 15px;
+}
+.leftcolumn {
+  display: flex;
+}
